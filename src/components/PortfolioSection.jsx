@@ -74,7 +74,7 @@ const projects = [
   {
     title: "Stage Ingénieur Logiciel — Enedis",
     description: `
-      Développement d'une application web pour le domaine d'opération DR Alpes, ajoutant des fonctionnalités non disponibles sur l'outil Sequoia de l'entreprise. Cette application a permis d'**optimiser les processus internes** et d'offrir une plus grande flexibilité aux utilisateurs pour la gestion des données opérationnelles.
+      Développement d'une application web pour le domaine d'opération DR Alpes, ajoutant des fonctionnalités non disponibles sur l'outil Sequoia de l'entreprise. Cette application a permis d'optimiser les processus internes et d'offrir une plus grande flexibilité aux utilisateurs pour la gestion des données opérationnelles.
     `,
     technologies: ["Codeigniter", "Laravel", "VueJS", "PHP"],
     period: "2017 - 2018",
