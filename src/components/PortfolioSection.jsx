@@ -3,12 +3,9 @@ import React, { useEffect, useRef } from "react";
 // Données des projets
 const projects = [
   {
-    title: "Ego — Gestion des Modèles Risque-Crédit",
-    description: `
-      En tant que Tech Lead, j'ai piloté l'intégralité du cycle de vie de cette plateforme web. En collaboration avec les Product Owners et Business Analysts, j'ai géré les user stories et le développement de bout en bout.
-      J'ai mis en place un pipeline CI/CD automatisé pour des déploiements fluides, et optimisé l'infrastructure pour la performance et la résilience en utilisant une base de données AWS Aurora. J'ai également créé un système d'alertes automatisées (basé sur des seuils de capacité) et un système de "Lights On-Off" pour réduire les coûts d'infrastructure de 40%.
-    `,
-    technologies: [
+    "title": "Ego — Gestion des Modèles Risque-Crédit",
+    "description": `En tant que Tech Lead, j'ai piloté l'intégralité du cycle de vie de cette plateforme web, en gérant une équipe distribuée, notamment en collaboration avec des membres basés à Bangalore. Cette expérience a renforcé mes compétences en leadership et en communication en anglais. J'ai géré les user stories et le développement de bout en bout, de la conception à la mise en production. J'ai mis en place un pipeline CI/CD automatisé pour des déploiements fluides, et optimisé l'infrastructure pour la performance et la résilience en utilisant une base de données AWS Aurora. J'ai également créé un système d'alertes automatisées (basé sur des seuils de capacité) et un système de "Lights On-Off" pour réduire les coûts d'infrastructure de 40%`,
+    "technologies": [
       "Spring Boot 3",
       "JAVA 21",
       "AWS ECS",
@@ -19,16 +16,14 @@ const projects = [
       "CloudFormation CDK (Java)",
       "React"
     ],
-    period: "Jan 2024 – Aujourd’hui",
-    img: "/images/sg.png",
-    altText: "société générale icon"
+    "period": "Jan 2024 – Aujourd’hui",
+    "img": "/images/sg.png",
+    "altText": "société générale icon"
   },
   {
-    title: "Hammer — Moteur de Calcul Risque-Crédit — Société Générale",
-    description: `
-      Système backend d’exécution des modèles de risque de crédit définis dans Ego. Ce moteur gère à la fois le calcul en temps réel (Loki) et le traitement de millions de contrats en mode batch (Drax). J'ai mené le projet en mode DevOps complet, de l'automatisation CI/CD à la supervision en production, en utilisant une librairie Jenkins interne et AWS CloudFormation CDK pour l'IaC. La partie batch est réalisée via un workflow AWS Step Functions avec gestion de rollback et de retry.
-    `,
-    technologies: [
+    "title": "Hammer — Moteur de Calcul Risque-Crédit",
+    "description": "Ce moteur backend exécute les modèles de risque de crédit en temps réel (Loki) et en mode batch (Drax), traitant des millions de contrats. J'ai mené ce projet en mode DevOps complet, de l'automatisation CI/CD à la supervision en production, en collaborant avec notre équipe à Bangalore. J'ai utilisé une librairie Jenkins interne et AWS CloudFormation CDK pour l'Infrastructure as Code (IaC). La partie batch est gérée par un workflow AWS Step Functions avec des mécanismes de rollback et de retry, assurant la résilience et la fiabilité du traitement.",
+    "technologies": [
       "Spring Boot  3",
       "JAVA 21",
       "AWS Step Functions",
@@ -36,11 +31,11 @@ const projects = [
       "AWS S3",
       "Docker",
       "Jenkins",
-      "CloudFormation CDK (Java)",
+      "CloudFormation CDK (Java)"
     ],
-    period: "Jan 2024 – Aujourd’hui",
-    img: "/images/sg.png",
-    altText: "société générale icon"
+    "period": "Jan 2024 – Aujourd’hui",
+    "img": "/images/sg.png",
+    "altText": "société générale icon"
   },
   {
     title: "SelfCare Monétique — Société Générale",
