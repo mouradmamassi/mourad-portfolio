@@ -1,9 +1,5 @@
 import React from "react";
 
-/**
- * Composant de la section d'introduction (Hero) du portfolio.
- * Met en avant le nom, le rôle, une brève description, et les informations de contact.
- */
 export default function HeroSection() {
   return (
     <section
@@ -15,27 +11,23 @@ export default function HeroSection() {
         alt="Portrait de Mourad MAMASSI"
         className="w-60 h-60 rounded-full shadow-lg mb-4 object-cover"
       />
-      
+
       <h1
         className="text-4xl font-bold text-gray-800 mb-2"
         aria-label="Mourad MAMASSI, Tech Lead et Ingénieur Logiciel"
       >
         Mourad MAMASSI
       </h1>
-      
+
       <p className="text-xl text-gray-600 mb-4">Tech Lead & Ingénieur Logiciel</p>
 
       <p className="max-w-2xl text-gray-700 mb-6 px-4 leading-relaxed">
-        En tant que <b>Tech Lead passionné</b>, je conçois et construis des solutions logicielles robustes et sécurisées, 
-        en particulier dans le secteur bancaire. Spécialisé en <b>Java Spring</b> et en <b>architecture cloud (AWS)</b>, 
-        je m'appuie sur une expertise en <b>DevOps et Kubernetes</b> pour orchestrer des déploiements fluides. 
-        J'accompagne également des équipes en tant que <b>coach et facilitateur</b> pour les aider à monter en compétences et à atteindre leurs objectifs.
+        Je conçois et construis des solutions logicielles robustes et sécurisées, en particulier dans le secteur bancaire. Spécialisé en <b>Java Spring</b> et en <b>architecture cloud (AWS</b> je m'appuie sur une expertise en <b>DevOps et Kubernetes</b> pour orchestrer des déploiements fluides. J'accompagne également des équipes en tant que <b>coach et facilitateur</b> pour les aider à monter en compétences et à atteindre leurs objectifs.
       </p>
 
-      {/* Ajout des informations de contact avec un style moderne et accessible */}
       <div className="flex flex-col sm:flex-row gap-4 mb-6">
-        <a 
-          href="tel:+33766773505" 
+        <a
+          href="tel:+33766773505"
           className="text-gray-700 hover:text-blue-600 transition-colors flex items-center"
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
@@ -43,8 +35,8 @@ export default function HeroSection() {
           </svg>
           07 66 77 35 05
         </a>
-        <a 
-          href="mailto:mourad.mamassi@gmail.com" 
+        <a
+          href="mailto:mourad.mamassi@gmail.com"
           className="text-gray-700 hover:text-blue-600 transition-colors flex items-center"
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">

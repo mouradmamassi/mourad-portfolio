@@ -23,7 +23,7 @@ const projects = [
     altText: "société générale icon"
   },
   {
-    title: "Hammer — Moteur de Calcul Risque-Crédit",
+    title: "Hammer — Moteur de Calcul Risque-Crédit — Société Générale",
     description: `
       Système backend d’exécution des modèles de risque de crédit définis dans Ego. Ce moteur gère à la fois le calcul en temps réel (Loki) et le traitement de millions de contrats en mode batch (Drax). J'ai mené le projet en mode DevOps complet, de l'automatisation CI/CD à la supervision en production, en utilisant une librairie Jenkins interne et AWS CloudFormation CDK pour l'IaC. La partie batch est réalisée via un workflow AWS Step Functions avec gestion de rollback et de retry.
     `,
@@ -42,7 +42,7 @@ const projects = [
     altText: "société générale icon"
   },
   {
-    title: "SelfCare Monétique",
+    title: "SelfCare Monétique — Société Générale",
     description: `
       Application bancaire critique utilisée par environ 8 millions de clients pour gérer leurs services de carte en toute autonomie : opposition, augmentation des plafonds, etc. Ce projet a exigé un haut niveau de sécurité, de disponibilité et de performance, en s'intégrant aux systèmes monétiques nationaux.
     `,
@@ -52,7 +52,7 @@ const projects = [
     altText: "société générale icon"
   },
   {
-    title: "Enrôlement Apple Pay",
+    title: "Enrôlement Apple Pay — Société Générale",
     description: `
       Application backend essentielle pour permettre aux clients d’enrôler leur carte bancaire sur Apple Pay. Le système vérifie l’éligibilité du client en se basant sur de nombreuses règles de gestion pour garantir la sécurité, la conformité et une expérience utilisateur optimale pour les paiements mobiles.
     `,
@@ -62,7 +62,7 @@ const projects = [
     altText: "société générale icon"
   },
   {
-    title: "Gestion Clés Cryptographiques",
+    title: "Gestion Clés Cryptographiques — Société Générale",
     description: `
       Outil de description et de génération des clés pour la monétique bancaire, avec une architecture cloud sécurisée. J'ai participé au développement du backend (Spring Boot, Java) et du frontend (Angular), avec un déploiement sécurisé sur AWS via Docker.
     `,
@@ -70,6 +70,16 @@ const projects = [
     period: "2020 – 2023",
     img: "/images/sg.png",
     altText: "Société Générale"
+  },
+  {
+    title: "Stage Ingénieur Logiciel — Enedis",
+    description: `
+      Développement d'une application web pour le domaine d'opération DR Alpes, ajoutant des fonctionnalités non disponibles sur l'outil Sequoia de l'entreprise. Cette application a permis d'**optimiser les processus internes** et d'offrir une plus grande flexibilité aux utilisateurs pour la gestion des données opérationnelles.
+    `,
+    technologies: ["Codeigniter", "Laravel", "VueJS", "PHP"],
+    period: "2017 - 2018",
+    img: "/images/enedis.jpg",
+    altText: "Logo d'Enedis"
   }
 ];
 
