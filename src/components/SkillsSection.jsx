@@ -62,7 +62,6 @@ export default function SkillsSection() {
       "Java (Spring Boot)",
       "React",
       "JavaScript",
-      "React",
       "Angular",
     ],
     "Cloud & DevOps": [
