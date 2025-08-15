@@ -5,7 +5,8 @@ const projects = [
   {
     title: "Ego — Gestion des Modèles Risque-Crédit",
     description: `
-      Plateforme web de gestion et de définition des modèles de risque-crédit pour la Direction Risque et Crédit. En tant que Tech Lead, j'ai géré le cycle de vie complet du projet (conception, développement et mise en production) et assuré l'automatisation des processus DevOps. Le frontend, développé en React, offre une interface intuitive aux utilisateurs. L'infrastructure est provisionnée via IaC avec AWS CloudFormation CDK (Java).
+      En tant que Tech Lead, j'ai piloté l'intégralité du cycle de vie de cette plateforme web. En collaboration avec les Product Owners et Business Analysts, j'ai géré les user stories et le développement de bout en bout.
+      J'ai mis en place un pipeline CI/CD automatisé pour des déploiements fluides, et optimisé l'infrastructure pour la performance et la résilience en utilisant une base de données AWS Aurora. J'ai également créé un système d'alertes automatisées (basé sur des seuils de capacité) et un système de "Lights On-Off" pour réduire les coûts d'infrastructure de 40%.
     `,
     technologies: [
       "Spring Boot 3",

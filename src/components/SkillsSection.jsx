@@ -1,3 +1,4 @@
+// src/components/SkillsSection.jsx
 import React, { useEffect, useRef } from "react";
 
 // Custom hook to handle "show on scroll" functionality
@@ -50,11 +51,18 @@ const SkillCard = ({ category, skillList, index }) => {
 
 export default function SkillsSection() {
   const skills = {
+    "Expertise & Leadership": [
+      "Gestion de projet Agile",
+      "Leadership d'équipe",
+      "Mentorat & Coaching",
+      "Architecture logicielle",
+      "Optimisation des API (Java Spring)",
+    ],
     "Langages & Frameworks": [
       "Java (Spring Boot)",
       "React",
       "JavaScript",
-      "Reacts",
+      "React",
       "Angular",
     ],
     "Cloud & DevOps": [
@@ -72,7 +80,7 @@ export default function SkillsSection() {
       "RESTful APIs",
       "API Gateway",
     ],
-    "Méthodologies": ["Agile", "Scrum", "TDD", "Clean Code", "BDD"],
+    "Méthodologies": ["Agile", "Scrum", "TDD", "Clean Code"],
   };
 
   return (
