@@ -12,7 +12,7 @@
       "educationTitle": "My Academic Journey",
       "projects": [
         {
-          "title": "Ego — Credit Risk Models Management",
+          "title": "Credit Risk Models Management",
           "description": "As a Tech Lead, I led the full lifecycle of this web platform, managing a distributed team, including collaboration with members based in Bangalore. This experience strengthened my leadership and English communication skills. I managed user stories and end-to-end development, from design to production. I implemented an automated CI/CD pipeline for smooth deployments and optimized the infrastructure for performance and resilience using an AWS Aurora database. I also created an automated alert system (based on capacity thresholds) and a 'Lights On-Off' system to reduce infrastructure costs by 40%.",
           "technologies": ["Spring Boot 3", "JAVA 21", "AWS ECS", "AWS S3", "AWS RDS", "Docker", "Jenkins", "CloudFormation CDK (Java)", "React"],
           "period": "Jan 2024 – Present",
@@ -20,8 +20,8 @@
           "altText": "société générale icon"
         },
         {
-          "title": "Hammer — Credit Risk Calculation Engine",
-          "description": "This backend engine executes credit risk models in real-time (Loki) and in batch mode (Drax), processing millions of contracts. I led this project in full DevOps mode, from CI/CD automation to production monitoring, collaborating with our team in Bangalore. I used an internal Jenkins library and AWS CloudFormation CDK for Infrastructure as Code (IaC). The batch part is managed by an AWS Step Functions workflow with rollback and retry mechanisms, ensuring the resilience and reliability of the process.",
+          "title": "Credit Risk Calculation Engine",
+          "description": "This backend engine executes credit risk models in real-time and in batch mode, processing millions of contracts. I led this project in full DevOps mode, from CI/CD automation to production monitoring, collaborating with our team in Bangalore. I used an internal Jenkins library and AWS CloudFormation CDK for Infrastructure as Code (IaC). The batch part is managed by an AWS Step Functions workflow with rollback and retry mechanisms, ensuring the resilience and reliability of the process.",
           "technologies": ["Spring Boot  3", "JAVA 21", "AWS Step Functions", "AWS ECS", "AWS S3", "Docker", "Jenkins", "CloudFormation CDK (Java)"],
           "period": "Jan 2024 – Present",
           "img": "/images/sg.png",

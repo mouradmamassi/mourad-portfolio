@@ -12,7 +12,7 @@
       "educationTitle": "Mon parcours académique",
       "projects": [
         {
-          "title": "Ego — Gestion des Modèles Risque-Crédit",
+          "title": "Gestion des Modèles Risque-Crédit",
           "description": "En tant que Tech Lead, j'ai piloté l'intégralité du cycle de vie de cette plateforme web, en gérant une équipe distribuée, notamment en collaboration avec des membres basés à Bangalore. Cette expérience a renforcé mes compétences en leadership et en communication en anglais. J'ai géré les user stories et le développement de bout en bout, de la conception à la mise en production. J'ai mis en place un pipeline CI/CD automatisé pour des déploiements fluides, et optimisé l'infrastructure pour la performance et la résilience en utilisant une base de données AWS Aurora. J'ai également créé un système d'alertes automatisées (basé sur des seuils de capacité) et un système de 'Lights On-Off' pour réduire les coûts d'infrastructure de 40%",
           "technologies": ["Spring Boot 3", "JAVA 21", "AWS ECS", "AWS S3", "AWS RDS", "Docker", "Jenkins", "CloudFormation CDK (Java)", "React"],
           "period": "Jan 2024 – Aujourd’hui",
@@ -20,8 +20,8 @@
           "altText": "société générale icon"
         },
         {
-          "title": "Hammer — Moteur de Calcul Risque-Crédit",
-          "description": "Ce moteur backend exécute les modèles de risque de crédit en temps réel (Loki) et en mode batch (Drax), traitant des millions de contrats. J'ai mené ce projet en mode DevOps complet, de l'automatisation CI/CD à la supervision en production, en collaborant avec notre équipe à Bangalore. J'ai utilisé une librairie Jenkins interne et AWS CloudFormation CDK pour l'Infrastructure as Code (IaC). La partie batch est gérée par un workflow AWS Step Functions avec des mécanismes de rollback et de retry, assurant la résilience et la fiabilité du traitement.",
+          "title": "Moteur de Calcul Risque-Crédit",
+          "description": "Ce moteur backend exécute les modèles de risque de crédit en temps réel et en mode batch, traitant des millions de contrats. J'ai mené ce projet en mode DevOps complet, de l'automatisation CI/CD à la supervision en production, en collaborant avec notre équipe à Bangalore. J'ai utilisé une librairie Jenkins interne et AWS CloudFormation CDK pour l'Infrastructure as Code (IaC). La partie batch est gérée par un workflow AWS Step Functions avec des mécanismes de rollback et de retry, assurant la résilience et la fiabilité du traitement.",
           "technologies": ["Spring Boot  3", "JAVA 21", "AWS Step Functions", "AWS ECS", "AWS S3", "Docker", "Jenkins", "CloudFormation CDK (Java)"],
           "period": "Jan 2024 – Aujourd’hui",
           "img": "/images/sg.png",
