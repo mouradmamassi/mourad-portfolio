@@ -1,0 +1,130 @@
+{
+    "hero": {
+      "title": "Mourad MAMASSI",
+      "subtitle": "Tech Lead & Software Engineer",
+      "summary": "I design and build robust and secure software solutions, with a focus on the banking sector. Specialized in <b>Java Spring</b> and <b>cloud architecture (AWS)</b>, I leverage my expertise in <b>DevOps and Kubernetes</b> to orchestrate seamless deployments. I also mentor teams as a <b>coach and facilitator</b> to help them grow and achieve their goals.",
+      "phone": "+33 7 66 77 35 05",
+      "email": "mourad.mamassi@gmail.com",
+      "cvButton": "Download my CV"
+    },
+    "portfolio": {
+      "projectsTitle": "My Main Projects",
+      "educationTitle": "My Academic Journey",
+      "projects": [
+        {
+          "title": "Ego — Credit Risk Models Management",
+          "description": "As a Tech Lead, I led the full lifecycle of this web platform, managing a distributed team, including collaboration with members based in Bangalore. This experience strengthened my leadership and English communication skills. I managed user stories and end-to-end development, from design to production. I implemented an automated CI/CD pipeline for smooth deployments and optimized the infrastructure for performance and resilience using an AWS Aurora database. I also created an automated alert system (based on capacity thresholds) and a 'Lights On-Off' system to reduce infrastructure costs by 40%.",
+          "technologies": ["Spring Boot 3", "JAVA 21", "AWS ECS", "AWS S3", "AWS RDS", "Docker", "Jenkins", "CloudFormation CDK (Java)", "React"],
+          "period": "Jan 2024 – Present",
+          "img": "/images/sg.png",
+          "altText": "société générale icon"
+        },
+        {
+          "title": "Hammer — Credit Risk Calculation Engine",
+          "description": "This backend engine executes credit risk models in real-time (Loki) and in batch mode (Drax), processing millions of contracts. I led this project in full DevOps mode, from CI/CD automation to production monitoring, collaborating with our team in Bangalore. I used an internal Jenkins library and AWS CloudFormation CDK for Infrastructure as Code (IaC). The batch part is managed by an AWS Step Functions workflow with rollback and retry mechanisms, ensuring the resilience and reliability of the process.",
+          "technologies": ["Spring Boot  3", "JAVA 21", "AWS Step Functions", "AWS ECS", "AWS S3", "Docker", "Jenkins", "CloudFormation CDK (Java)"],
+          "period": "Jan 2024 – Present",
+          "img": "/images/sg.png",
+          "altText": "société générale icon"
+        },
+        {
+          "title": "SelfCare Monétique — Société Générale",
+          "description": "A critical banking application used by around 8 million clients to manage their card services autonomously: blocking, increasing limits, etc. This project demanded a high level of security, availability, and performance, integrating with national payment systems.",
+          "technologies": ["Spring Boot 2.0", "React 18", "JAVA 11", "Cloud Interne"],
+          "period": "2020 – 2023",
+          "img": "/images/sg.png",
+          "altText": "société générale icon"
+        },
+        {
+          "title": "Apple Pay Enrollment — Société Générale",
+          "description": "An essential backend application to allow clients to enroll their bank cards in Apple Pay. The system verifies client eligibility based on numerous business rules to ensure security, compliance, and an optimal user experience for mobile payments.",
+          "technologies": ["Spring Boot 2", "JAVA 11", "Cloud Interne"],
+          "period": "2020 – 2023",
+          "img": "/images/sg.png",
+          "altText": "société générale icon"
+        },
+        {
+          "title": "Cryptographic Keys Management — Société Générale",
+          "description": "A tool for describing and generating keys for banking payment systems, with a secure cloud architecture. I participated in the development of the backend (Spring Boot, Java) and frontend (Angular), with a secure deployment on AWS via Docker.",
+          "technologies": ["Spring Boot 2", "JAVA 11", "Angular", "AWS", "Docker"],
+          "period": "2020 – 2023",
+          "img": "/images/sg.png",
+          "altText": "Société Générale"
+        },
+        {
+          "title": "Software Engineer Internship — Enedis",
+          "description": "Development of a web application for the DR Alpes operational domain, adding functionalities not available on the company's Sequoia tool. This application helped to optimize internal processes and provide greater flexibility to users for managing operational data.",
+          "technologies": ["Codeigniter", "Laravel", "VueJS", "PHP"],
+          "period": "2017 - 2018",
+          "img": "/images/enedis.jpg",
+          "altText": "Logo d'Enedis"
+        }
+      ],
+      "educations": [
+        {
+          "diploma": "Computer Science Engineer",
+          "institution": "Université de Technologie de Belfort-Montbéliard",
+          "period": "2016 - 2020",
+          "img": "/images/utbm.webp",
+          "altText": "Université de technologie de Belfort Montbéliard (UTBM)"
+        },
+        {
+          "diploma": "Civil Computer Engineer, Exchange Semester",
+          "institution": "Université de Liège",
+          "period": "2018 - 2019",
+          "img": "/images/uliege.jpg",
+          "altText": "Université de Liège"
+        },
+        {
+          "diploma": "Bachelor of Science in Computer Science",
+          "institution": "Université Le Havre Normandie",
+          "period": "2015 - 2016",
+          "img": "/images/uhavre.jpg",
+          "altText": "Université Le Havre"
+        },
+        {
+          "diploma": "Professional Bachelor, Software and Web Development",
+          "institution": "École normale supérieure - Morocco",
+          "period": "2014 - 2015",
+          "img": "/images/university.png",
+          "altText": "École normale supérieure"
+        },
+        {
+          "diploma": "University Degree in Technology, Computer Engineering",
+          "institution": "École Supérieure de Technologie - Morocco",
+          "period": "2012 - 2014",
+          "img": "/images/university.png",
+          "altText": "École Supérieure de Technologie"
+        },
+        {
+          "diploma": "Baccalauréat, Physical Science",
+          "institution": "Maghreb Al Arabie - Morocco",
+          "period": "2011 - 2012",
+          "img": "/images/university.png",
+          "altText": "Maghreb Al Arabie - Morocco"
+        }
+      ]
+    },
+    "skills": {
+      "title": "My Technical Skills",
+      "categories": {
+        "Expertise & Leadership": ["Agile Project Management", "Team Leadership", "Mentoring & Coaching", "Software Architecture", "API Optimization (Java Spring)"],
+        "Languages & Frameworks": ["Java (Spring Boot)", "React", "JavaScript", "Angular"],
+        "Cloud & DevOps": ["AWS", "Docker", "Kubernetes", "Jenkins", "CloudFormation CDK", "CI/CD"],
+        "Databases & APIs": ["PostgreSQL", "MySQL", "SQL Server", "RESTful APIs", "API Gateway"],
+        "Methodologies": ["Agile", "Scrum", "TDD", "Clean Code"]
+      }
+    },
+    "certifications": {
+      "title": "My Certifications",
+      "viewCredential": "View Credential",
+      "id": "Credential ID"
+    },
+    "hobbies": {
+      "title": "My Hobbies",
+      "list": ["Bodybuilding", "Swimming", "Hackathons", "Running", "Conferences (Devoxx)"]
+    },
+    "footer": {
+      "copyright": "© {year} Mourad MAMASSI. All Rights Reserved."
+    }
+  }

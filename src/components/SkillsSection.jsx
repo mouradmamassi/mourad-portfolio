@@ -1,5 +1,6 @@
 // src/components/SkillsSection.jsx
 import React, { useEffect, useRef } from "react";
+import { useLanguage } from "../context/LanguageContext";
 
 // Custom hook to handle "show on scroll" functionality
 const useIntersectionObserver = (ref, options) => {
@@ -17,7 +18,8 @@ const useIntersectionObserver = (ref, options) => {
 
     return () => {
       if (ref.current) {
-        observer.unobserve(entry.target);
+        // La correction est ici : on utilise ref.current au lieu de entry.target
+        observer.unobserve(ref.current);
       }
     };
   }, [ref, options]);
@@ -50,37 +52,8 @@ const SkillCard = ({ category, skillList, index }) => {
 };
 
 export default function SkillsSection() {
-  const skills = {
-    "Expertise & Leadership": [
-      "Gestion de projet Agile",
-      "Leadership d'équipe",
-      "Mentorat & Coaching",
-      "Architecture logicielle",
-      "Optimisation des API (Java Spring)",
-    ],
-    "Langages & Frameworks": [
-      "Java (Spring Boot)",
-      "React",
-      "JavaScript",
-      "Angular",
-    ],
-    "Cloud & DevOps": [
-      "AWS",
-      "Docker",
-      "Kubernetes",
-      "Jenkins",
-      "CloudFormation CDK",
-      "CI/CD",
-    ],
-    "Bases de données & API": [
-      "PostgreSQL",
-      "MySQL",
-      "SQL Server",
-      "RESTful APIs",
-      "API Gateway",
-    ],
-    "Méthodologies": ["Agile", "Scrum", "TDD", "Clean Code"],
-  };
+  const { content } = useLanguage();
+  const skills = content.skills.categories;
 
   return (
     <>
@@ -94,7 +67,7 @@ export default function SkillsSection() {
       </style>
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8">Mes compétences techniques</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-8">{content.skills.title}</h2>
           <div className="flex flex-wrap justify-center gap-10">
             {Object.entries(skills).map(([category, skillList], index) => (
               <SkillCard
