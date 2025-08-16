@@ -22,7 +22,7 @@ export default function HeroSection() {
       <p className="text-xl text-gray-600 mb-4">Tech Lead & Ingénieur Logiciel</p>
 
       <p className="max-w-2xl text-gray-700 mb-6 px-4 leading-relaxed">
-        Je conçois et construis des solutions logicielles robustes et sécurisées, en particulier dans le secteur bancaire. Spécialisé en <b>Java Spring</b> et en <b>architecture cloud (AWS</b> je m'appuie sur une expertise en <b>DevOps et Kubernetes</b> pour orchestrer des déploiements fluides. J'accompagne également des équipes en tant que <b>coach et facilitateur</b> pour les aider à monter en compétences et à atteindre leurs objectifs.
+        Je conçois et construis des solutions logicielles robustes et sécurisées, en particulier dans le secteur bancaire. Spécialisé en <b>Java Spring</b> et en <b>architecture cloud (AWS)</b> je m'appuie sur une expertise en <b>DevOps et Kubernetes</b> pour orchestrer des déploiements fluides. J'accompagne également des équipes en tant que <b>coach et facilitateur</b> pour les aider à monter en compétences et à atteindre leurs objectifs.
       </p>
 
       <div className="flex flex-col sm:flex-row gap-4 mb-6">
