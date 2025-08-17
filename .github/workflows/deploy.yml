@@ -25,6 +25,13 @@ jobs:
       - name: Build React App
         run: npm run build
 
+            # Step to copy the CV files into the build directory
+      - name: Copy CVs to build directory and sitemap.xml
+        run: |
+          cp cv/"CV Mourad 2025 FR.pdf" dist/
+          cp cv/"CV Mourad 2025 EN.pdf" dist/
+          cp sitemap.xml dist/
+
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:

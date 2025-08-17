@@ -6,6 +6,14 @@ export default function HeroSection() {
   const { content, switchLanguage, lang } = useLanguage();
   const heroContent = content.hero;
 
+  // Function to determine the correct CV file path based on the current language
+  const getCvPath = () => {
+    if (lang === 'fr') {
+      return '/CV Mourad 2025 FR.pdf';
+    }
+    return '/CV Mourad 2025 EN.pdf';
+  };
+
   return (
     <section
       id="hero"
@@ -63,8 +71,9 @@ export default function HeroSection() {
       </div>
 
       <div className="flex flex-col sm:flex-row gap-4">
+        {/* The download link now uses the function to get the correct CV path */}
         <a
-          href="/cv-mourad.pdf"
+          href={getCvPath()}
           className="bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 transition transform hover:scale-105"
           target="_blank"
           rel="noopener noreferrer"
