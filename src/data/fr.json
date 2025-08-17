@@ -95,13 +95,6 @@
           "period": "2012 - 2014",
           "img": "/images/university.png",
           "altText": "École Supérieure de Technologie"
-        },
-        {
-          "diploma": "Baccalauréat, Science Physique",
-          "institution": "Maghreb Al Arabie - Maroc",
-          "period": "2011 - 2012",
-          "img": "/images/university.png",
-          "altText": "Maghreb Al Arabie - Maroc"
         }
       ]
     },
