@@ -105,7 +105,7 @@
         "Languages & Frameworks": ["Java (Spring Boot)", "React", "JavaScript", "Angular"],
         "Cloud & DevOps": ["AWS", "Docker", "Kubernetes", "Jenkins", "CloudFormation CDK", "CI/CD"],
         "Databases & APIs": ["PostgreSQL", "MySQL", "SQL Server", "RESTful APIs", "API Gateway"],
-        "Methodologies": ["Agile", "Scrum", "TDD", "BDD", "Clean Code"]
+        "Methodologies": ["Agile", "SAFE", "Scrum", "TDD", "BDD", "Clean Code"]
       }
     },
     "certifications": {
