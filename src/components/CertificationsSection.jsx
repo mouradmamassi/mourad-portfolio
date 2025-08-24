@@ -11,7 +11,7 @@ const certifications = [
       fr: "Émise le août 2025 · Expire le août 2028",
       en: "Issued: Aug. 2025 · Expires: Aug. 2028"
     },
-    logo: "/images/aws_logo.webp", // You might need to add this image file to your project
+    logo: "/images/aws_logo.webp",
     altText: "Logo Amazon Web Services",
     url: "https://www.credly.com/badges/2c5e39e2-1808-49cd-b66d-aef0cdea1813"
   },
