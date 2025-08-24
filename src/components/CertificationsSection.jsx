@@ -8,8 +8,8 @@ const certifications = [
     name: "AWS Certified Developer – Associate",
     issuer: "Amazon Web Services Training and Certification",
     date: {
-      fr: "Date de délivrance : août 2025",
-      en: "Issued: Aug. 2025"
+      fr: "Émise le août 2025 · Expire le août 2028",
+      en: "Issued: Aug. 2025 · Expires: Aug. 2028"
     },
     logo: "/images/aws_logo.webp", // You might need to add this image file to your project
     altText: "Logo Amazon Web Services",
