@@ -5,6 +5,17 @@ import { useLanguage } from "../context/LanguageContext";
 // Données des certifications
 const certifications = [
   {
+    name: "AWS Certified Developer – Associate",
+    issuer: "Amazon Web Services Training and Certification",
+    date: {
+      fr: "Date de délivrance : août 2025",
+      en: "Issued: Aug. 2025"
+    },
+    logo: "/images/aws_logo.webp", // You might need to add this image file to your project
+    altText: "Logo Amazon Web Services",
+    url: "https://www.credly.com/badges/2c5e39e2-1808-49cd-b66d-aef0cdea1813"
+  },
+  {
     name: "Spring Certified Professional 2024",
     issuer: "VMware",
     date: {
